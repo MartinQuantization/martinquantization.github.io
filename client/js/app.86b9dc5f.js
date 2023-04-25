@@ -69,7 +69,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-cfd4438e":"edca1e01"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-e9f57028":"ecdfd26e"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -103,11 +103,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"chunk-cfd4438e":1};
+/******/ 		var cssChunks = {"chunk-e9f57028":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-cfd4438e":"3f715034"}[chunkId] + ".css";
+/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-e9f57028":"bd403eba"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -400,13 +400,6 @@ async function getHistory(address) {
     };
   }
 }
-
-/***/ }),
-
-/***/ "2b3d":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1133,12 +1126,12 @@ var Navbar_component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Navbar = (Navbar_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"694df186-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/components/Footerbar.vue?vue&type=template&id=ba9e54d4&scoped=true&
-var Footerbarvue_type_template_id_ba9e54d4_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('b-container',{attrs:{"fluid":"lg"}},[_c('b-row',{staticClass:"footer-bar",attrs:{"align-h":"between","align-v":"center"}},[_c('b-col',{attrs:{"cols":"12","lg":"6"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__("a5ed"),"alt":""}})]),_c('b-col',{staticClass:"social-wrapper",attrs:{"cols":"12","lg":"6"}},[_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.twitterLink)}}}),_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.gitLink)}}}),_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.teleLink)}}})])],1)],1),_c('div',{staticClass:"divider"}),_c('b-container',{attrs:{"fluid":"lg"}},[_c('b-row',{staticClass:"copyright-bar",attrs:{"align-h":"center","align-v":"center"}},[_c('b-col',{attrs:{"cols":"12","lg":"6"}},[_c('div',{staticClass:"copyright"},[_vm._v("Copyright © 2023 Martin Quantization Foundation. All rights reserved")])])],1)],1)],1)}
-var Footerbarvue_type_template_id_ba9e54d4_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"694df186-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/components/Footerbar.vue?vue&type=template&id=432acf3c&scoped=true&
+var Footerbarvue_type_template_id_432acf3c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('b-container',{attrs:{"fluid":"lg"}},[_c('b-row',{staticClass:"footer-bar",attrs:{"align-h":"between","align-v":"center"}},[_c('b-col',{attrs:{"cols":"12","lg":"6"}},[_c('img',{staticClass:"logo",attrs:{"src":__webpack_require__("a5ed"),"alt":""}})]),_c('b-col',{staticClass:"social-wrapper",attrs:{"cols":"12","lg":"6"}},[_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.twitterLink)}}}),_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.gitLink)}}}),_c('div',{staticClass:"social-icon",on:{"click":function($event){return _vm.open(_vm.config.teleLink)}}})])],1)],1),_c('div',{staticClass:"divider"}),_c('b-container',{attrs:{"fluid":"lg"}},[_c('b-row',{staticClass:"copyright-bar",attrs:{"align-h":"center","align-v":"center"}},[_c('b-col',{attrs:{"cols":"12","lg":"6"}},[_c('div',{staticClass:"copyright"},[_vm._v("Copyright © 2023 Martin Quantization Foundation. All rights reserved")])])],1)],1)],1)}
+var Footerbarvue_type_template_id_432acf3c_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/layout/components/Footerbar.vue?vue&type=template&id=ba9e54d4&scoped=true&
+// CONCATENATED MODULE: ./src/layout/components/Footerbar.vue?vue&type=template&id=432acf3c&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--13-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/components/Footerbar.vue?vue&type=script&lang=js&
 //
@@ -1191,8 +1184,8 @@ var Footerbarvue_type_template_id_ba9e54d4_scoped_true_staticRenderFns = []
 });
 // CONCATENATED MODULE: ./src/layout/components/Footerbar.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_Footerbarvue_type_script_lang_js_ = (Footerbarvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/layout/components/Footerbar.vue?vue&type=style&index=0&id=ba9e54d4&prod&lang=scss&scoped=true&
-var Footerbarvue_type_style_index_0_id_ba9e54d4_prod_lang_scss_scoped_true_ = __webpack_require__("d594");
+// EXTERNAL MODULE: ./src/layout/components/Footerbar.vue?vue&type=style&index=0&id=432acf3c&prod&lang=scss&scoped=true&
+var Footerbarvue_type_style_index_0_id_432acf3c_prod_lang_scss_scoped_true_ = __webpack_require__("8615");
 
 // CONCATENATED MODULE: ./src/layout/components/Footerbar.vue
 
@@ -1205,11 +1198,11 @@ var Footerbarvue_type_style_index_0_id_ba9e54d4_prod_lang_scss_scoped_true_ = __
 
 var Footerbar_component = Object(componentNormalizer["a" /* default */])(
   components_Footerbarvue_type_script_lang_js_,
-  Footerbarvue_type_template_id_ba9e54d4_scoped_true_render,
-  Footerbarvue_type_template_id_ba9e54d4_scoped_true_staticRenderFns,
+  Footerbarvue_type_template_id_432acf3c_scoped_true_render,
+  Footerbarvue_type_template_id_432acf3c_scoped_true_staticRenderFns,
   false,
   null,
-  "ba9e54d4",
+  "432acf3c",
   null
   
 )
@@ -1443,7 +1436,7 @@ const routes = [{
   children: [{
     path: '/',
     name: 'Home',
-    component: () => __webpack_require__.e(/* import() */ "chunk-cfd4438e").then(__webpack_require__.bind(null, "16c0"))
+    component: () => __webpack_require__.e(/* import() */ "chunk-e9f57028").then(__webpack_require__.bind(null, "16c0"))
   }
   // {
   //   path: '/auction',
@@ -2123,6 +2116,17 @@ window.__g_root__ = new vue_common_default.a({
 
 /***/ }),
 
+/***/ "8615":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_432acf3c_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a2c9");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_432acf3c_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_432acf3c_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "8739":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2242,6 +2246,13 @@ instance.interceptors.response.use(response => {
   return Promise.reject(error);
 });
 /* harmony default export */ __webpack_exports__["a"] = (instance);
+
+/***/ }),
+
+/***/ "a2c9":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -2385,17 +2396,6 @@ const USDTInterface = new ethers__WEBPACK_IMPORTED_MODULE_0__[/* ethers */ "a"].
 
 /***/ }),
 
-/***/ "d594":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_ba9e54d4_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("2b3d");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_ba9e54d4_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_style_index_0_id_ba9e54d4_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "da22":
 /***/ (function(module) {
 
@@ -2420,7 +2420,7 @@ var web_dom_exception_stack = __webpack_require__("b7ef");
   twitterLink: '',
   gitLink: 'https://github.com',
   teleLink: '',
-  gitTreeDataUrl: 'https://api.github.com/repos/MartinQuantization/martin-merkletreedata',
+  gitTreeDataUrl: 'https://api.github.com/repos/MartinFinance/martin-merkletreedata',
   // defaultPricePrecision: 8,
   // defaultAmountPrecision: 4,
   // defaultExpireTime: 3600 * 24 * 365 * 10, // 秒
@@ -2464,7 +2464,7 @@ var web_dom_exception_stack = __webpack_require__("b7ef");
   twitterLink: '',
   gitLink: 'https://github.com',
   teleLink: '',
-  gitTreeDataUrl: 'https://api.github.com/repos/MartinQuantization/martin-merkletreedata',
+  gitTreeDataUrl: 'https://api.github.com/repos/MartinFinance/martin-merkletreedata',
   // defaultPricePrecision: 8,
   // defaultAmountPrecision: 4,
   // defaultExpireTime: 3600 * 24 * 365 * 10, // 秒
